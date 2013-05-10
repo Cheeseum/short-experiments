@@ -49,7 +49,7 @@ Particle.prototype = {
 
     set r(r) {
         this._r = r;
-        this.mass = 0.1 * Math.pow(this.r, 2);
+        this.mass = 0.1 * Math.pow(this.r, 3);
     }
 }
 
